@@ -15,35 +15,40 @@
 
         <div class ="direct-login">
             <buttom class ="google-btn">
-                <img src ="#" > <!-- alt ="Google icon" -->
+                <img src ="#" alt ="Google icon" tittle ="Google icon">  <!-- alt = "descripción imagen" --- tittle = "título imagen" -->
                 Sign in with Google
             </buttom>
         
             <buttom class ="facebook-btn">
-                <img src ="#" > <!-- alt ="Facebook icon" -->
+                <img src ="#" alt ="Facebook icon" tittle ="Facebook icon">
             </buttom>
         </div>
 
-        <p>or</p>
+       
+        <p class ="separation">_____or_____</p>
+        
 
         <form class ="login-form">
-            <label for ="email">Email</label><br>
-            <input type ="email" id ="email" name ="email" placeholder="Enter email"> <br>
-            <label for ="password">Password</label><br>
-            <input type ="password" id ="password" name ="password" placeholder="Enter password">
-        </form>
+            <div class ="form-group">
+                <label for ="email">Email</label>
+                <input type ="email" id ="email" name ="email" placeholder="Enter email">
+                <button>...</button>
+            </div>
 
-        
+            <div class ="form-group">
+                <label for ="password">Password</label>
+                <input type ="password" id ="password" name ="password" placeholder="Enter password">
+            </div>   
 
-
-
-
-
-
+            <div class ="submit-btn">
+                <button type ="submit" class ="login-btn">Log in</button>
+            </div>
+            
+            <div class ="forgot-password">
+                <a href ="#" class ="forgot-password">Forgot password</a>
+            </div>
+       </form>
     </div>
-
-        
-
 
   <!-- <script src="./js/script.js"></script> -->
 </body>
